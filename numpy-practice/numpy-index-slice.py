@@ -39,3 +39,8 @@ print(arr[[0,2]])                                       # Multiple rows
 
 # All rows and multiple columns...
 print(arr[:,[0,2]])
+
+arr = np.array([10,20,30,40,50,60,70])
+print(arr[arr>25])
+print(arr[(arr > 20) & (arr <50)])
+print(arr[(arr > 20) | (arr > 50)])
