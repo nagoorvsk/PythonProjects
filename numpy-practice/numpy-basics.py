@@ -20,3 +20,12 @@ print(arr)
 
 arr = np.linspace(10,20,2)
 print(arr)
+
+arr = np.array([2,5,1,8,3,9])
+print(arr.shape)
+
+# Dimenstions of an array..1:Vector, 2:Matrix, 3:Tensor
+print(arr.ndim) 
+
+# Data stored in the array...
+print(arr.dtype)
