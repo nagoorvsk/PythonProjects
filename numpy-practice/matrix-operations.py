@@ -37,3 +37,12 @@ b = np.array([[1],[2],[3]])
 print(b.shape)
 
 print(a@b)
+
+# Add a row vector to a matrix
+a = np.array([[1,2,3],
+              [4,5,6],
+              [7,8,9]])
+b = np.array([[10,11,12]])
+
+a = np.vstack((a,b))
+print(a)
