@@ -1,4 +1,5 @@
 import csv
+import numpy as np
 
 def load_data(file_path):
     rows = []
@@ -9,6 +10,5 @@ def load_data(file_path):
 
         for row in reader:
             rows.append([float(x) for x in row])        # Convert data to float
-        print(rows)
-
-
+    
+    return np.array(rows)
