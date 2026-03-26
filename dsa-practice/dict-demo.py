@@ -1,4 +1,4 @@
-count = {"a":1, "b":2}
+count = {"a":1, "b":2}                  # dict("a"=1,"b"=2)
 
 # Adding a new key-value pair
 count["c"] = 3
