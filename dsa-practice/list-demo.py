@@ -16,3 +16,6 @@ if (10 in nums):
     print("Given value is exist in the list")
 else:
     print("Give value is not exist in the list")
+
+nums.sort()
+print(nums)
